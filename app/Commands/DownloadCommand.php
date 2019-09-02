@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Storage;
 use LaravelZero\Framework\Commands\Command;
 use function \GuzzleHttp\Psr7\parse_header;
 
-class InspiringCommand extends Command
+class DownloadCommand extends Command
 {
     protected $signature = "download:diario-oficial
                             {from : data no formato dd/mm/YYYY}
