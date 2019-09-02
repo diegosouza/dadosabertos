@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "854958c7cc2936c80afa079647827f10",
+    "content-hash": "17b7c226a661dd0f1e8720d992589334",
     "packages": [
         {
             "name": "caseyamcl/guzzle_retry_middleware",
@@ -1326,6 +1326,58 @@
                 "storage"
             ],
             "time": "2019-08-24T11:17:19+00:00"
+        },
+        {
+            "name": "ncjoes/poppler-php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ncjoes/poppler-php.git",
+                "reference": "615603fda1e255a2fae6ce44a879d7e36b3c2a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ncjoes/poppler-php/zipball/615603fda1e255a2fae6ce44a879d7e36b3c2a3a",
+                "reference": "615603fda1e255a2fae6ce44a879d7e36b3c2a3a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "^5.3",
+                "illuminate/support": "^5.3",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NcJoes\\PopplerPhp\\": "src/PopplerPhp"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chukwuemeka Nwobodo",
+                    "email": "jc.nwobodo@gmail.com"
+                }
+            ],
+            "description": "Complete, Comprehensive and Flexible PHP wrapper for Poppler-utils",
+            "keywords": [
+                "PDF Convert",
+                "PDF to HTML",
+                "PDF to JPG",
+                "PDF to PNG",
+                "PDF to SVG",
+                "PHP-PDF",
+                "Poppler-PHP",
+                "Poppler-utils",
+                "pdf"
+            ],
+            "time": "2019-02-13T00:20:55+00:00"
         },
         {
             "name": "nesbot/carbon",
